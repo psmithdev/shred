@@ -57,10 +57,10 @@ export function LandingPageComponent() {
       <main className="flex-grow">
         <section className="relative h-[500px]">
           <Image
-            src="/placeholder.svg?height=500&width=1920"
+            src="/school_bus_4.png?height=500&width=1920"
             alt="Secure document handling"
             layout="fill"
-            objectFit="cover"
+            style={{ objectFit: "cover" }}
             priority
           />
           <div className="absolute inset-0 bg-gray-900 bg-opacity-60" />
